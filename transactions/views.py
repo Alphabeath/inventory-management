@@ -45,7 +45,7 @@ class SupplierCreateView(SuccessMessageMixin, CreateView):
     model = Supplier
     form_class = SupplierForm
     success_url = '/transactions/suppliers'
-    success_message = "El proveedor fue creado satisfactoriamente"    git remote add origin https://github.com/Alphabeath/inventory-management
+    success_message = "El proveedor fue creado satisfactoriamente"
     template_name = "suppliers/edit_supplier.html"
     
     def get_context_data(self, **kwargs):
